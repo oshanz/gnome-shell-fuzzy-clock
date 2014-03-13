@@ -16,7 +16,7 @@ const Gettext = imports.gettext;
 Gettext.textdomain("fuzzyclock");
 const _ = Gettext.gettext;
 
-const UPDATE_INTERVAL = 5000;
+const UPDATE_INTERVAL = 60000;
 
 var hours_list, hour_names = null; // will initialize later, when gettext will be available
 
